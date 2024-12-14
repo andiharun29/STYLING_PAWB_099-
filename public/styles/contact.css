@@ -1,0 +1,125 @@
+body {
+    background: linear-gradient(to bottom, #e0f7fa, #80deea);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #263238;
+}
+
+.container {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background: #ffffff;
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-body {
+    padding: 50px;
+    text-align: center;
+}
+
+h1, h3 {
+    font-weight: 700;
+    color: #00796b;
+}
+
+p.lead {
+    font-size: 1.1rem;
+    color: #455a64;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.btn {
+    background: #004d40;
+    color: #ffffff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background 0.4s, transform 0.2s;
+}
+
+.btn:hover {
+    background: #00251a;
+    transform: scale(1.05);
+}
+
+.table {
+    border-radius: 20px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    width: 100%;
+}
+
+.table thead {
+    background: #004d40;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 18px;
+    font-size: 1rem;
+    border: 1px solid #eeeeee;
+}
+
+.table tbody tr {
+    transition: background 0.3s, transform 0.2s;
+}
+
+.table tbody tr:hover {
+    background: #e0f2f1;
+    transform: scale(1.02);
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00796b;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #b2dfdb;
+    border-radius: 12px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #004d40;
+    box-shadow: 0 0 8px rgba(0, 77, 64, 0.5);
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #004d40;
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    border-radius: 0 0 15px 15px;
+}
